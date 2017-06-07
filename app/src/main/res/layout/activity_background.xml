@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/background1"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView1"
+            android:layout_margin="5dp"
+            android:onClick="selectImage"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/background2"
+            android:layout_weight="1"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:onClick="selectImage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:id="@+id/imageView3"
+            android:scaleType="fitXY"
+            android:src="@drawable/background3"
+            android:onClick="selectImage"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/background4"
+            android:layout_weight="1"
+            android:id="@+id/imageView4"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:onClick="selectImage"/>
+    </LinearLayout>
+
+</LinearLayout>
